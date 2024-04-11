@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/pet_background_3.jpg');
+  background-size: cover;
+}
+
+.home-top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #067d4ebb;
+  color: white;
+  z-index: 1000;
+}
+
+.home-top-bar .left, .home-top-bar .right {
+  display: flex;
+  align-items: center;
+}
+
+.home-logo {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.home-link {
+  margin-right: 20px;
+  font-size: 1.2em;
+}
+
+.home-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-link a:hover {
+  text-decoration: underline;
+}
+
+.home-main {
+  padding-top: 100px;
+}
+
+.home-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.home-background h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.home-background p {
+  font-size: 1.2em;
+}
+
+.home-background-wrapper {
+  background-color: #067d4ebb; /* Semi-transparent white background */
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.search-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-form label {
+  color: white;
+}
+
+.search-form input[type="text"],
+.search-form input[type="date"],
+.search-form select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.search-form select {
+  appearance: none;
+}
+
+.search-form input[type="range"] {
+  width: 100%;
+}
+
+.search-form .rate-slider-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-form .rate-slider-container input[type="range"] {
+  flex: 1;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #009150;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.search-form button:hover {
+  background-color: #004731;
+}
+
+.home-not-pet-owner {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.home-not-pet-owner a {
+  color: #3f51b5;
+  text-decoration: underline;
+}
+
+.home-not-pet-owner a:hover {
+  color: #1e88e5;
+}
+
+.map-view-container {
+  margin-top: 20px;
+}

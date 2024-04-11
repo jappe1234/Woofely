@@ -1,0 +1,124 @@
+.register-background {
+    background-image: url('./images/pet_background.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-bar {
+    background-color: #ffffffe7; /* Main brand color */
+    padding: 10px 0;
+    width: 100%;
+    position: fixed; /* Fixed positioning to keep it at the top */
+    top: 0; /* Position at the top */
+    left: 0; /* Align to the left */
+    z-index: 1000; /* Ensure it's above other elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-logo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+.register-wrapper {
+    background-color: rgba(0, 189, 112, 0.765); 
+    border-radius: 10px;
+    padding: 30px 40px;
+    width: 600px;
+    max-width: 80%;
+    position: relative;
+}
+
+.register-wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.register-input-box {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+}
+
+.register-input-box input {
+    width: calc(100% - 40px);
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid #eee;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white; /* Change text color to white */
+    padding: 25px 40px 25px 20px;
+    transition: border-color 0.3s ease;
+}
+
+.register-input-box input::placeholder {
+    color: white;
+}
+
+.register-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.register-back-button {
+    display: flex;
+    justify-content: center; /* Center align the link */
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.register-back-button p {
+    color: #b1ffe0
+}
+
+.register-button-container button {
+    width: 200px;
+    height: 60px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    border: 2px solid #eee;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 20px;
+    color: #00bd70;
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #00bd70;
+}
+
+.back-button {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+.register-eye-icon {
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    height: 50px;
+}

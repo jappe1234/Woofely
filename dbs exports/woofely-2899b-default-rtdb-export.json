@@ -1,0 +1,26 @@
+{
+  "users": {
+    "XFL224eu87WRLGAvvvqDPMEaYZs2": {
+      "email": "harjaapsingh15@gmail.com",
+      "endDate": "2024-04-30",
+      "latitude": 51.5389065,
+      "location": "SL3 6NB",
+      "longitude": -0.5762381999999999,
+      "phoneNumber": "07542331191",
+      "rates": "25",
+      "selectedService": "house-sitting",
+      "startDate": "2024-04-11",
+      "userType": "petMinder",
+      "username": "Harjaap"
+    },
+    "unVoElqqmYalrBhL9UAwFcG7M2m1": {
+      "email": "random@gmail.com",
+      "latitude": 51.5389065,
+      "location": "SL3 6NB",
+      "longitude": -0.5762381999999999,
+      "phoneNumber": "07542331199",
+      "userType": "petOwner",
+      "username": "Random"
+    }
+  }
+}

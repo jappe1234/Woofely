@@ -1,0 +1,62 @@
+
+/* Styles for the container */
+.container-profile {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: flex-start; /* Align items at the start of the cross axis */
+    width: 750px;
+    height: 500px;
+    background-color: green;
+    background-size: cover;
+    background-position: center;
+    margin: 100px auto; /* Center the container horizontally with 100px margin from the top */
+    border-radius: 25px;
+    text-align: left; /* Align buttons to the left */
+    position: relative; /* Position relative for absolute positioning of children */
+    padding: 20px; /* Add padding to the container */
+}
+
+/* Styles for the buttons */
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: flex-start; /* Align buttons to the start (left) */
+}
+
+.container-profile button {
+    width: 100%; /* Occupy full width of the container */
+    height: 50px;
+    background: white;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px; /* Margin between buttons */
+}
+
+/* Styles for the profile display */
+.profile-display {
+    color: white;
+    width: 35%; /* Set width to 50% to occupy half of the container */
+    padding: 0; /* Add padding to the profile display section */
+    margin: -25px auto -20px 175px; /* Center the profile display horizontally, move it 20px up, and 50px to the right */
+    text-align: left; /* Align text to the left within the profile display */
+}
+
+
+/* Styles for the edit profile button */
+.edit-profile-button {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+
+
+
+
+
+

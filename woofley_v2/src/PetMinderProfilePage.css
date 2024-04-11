@@ -1,0 +1,73 @@
+/* Styles for the profile page */
+.profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styles for the white wrapper */
+.white-wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+/* Styles for the profile sections */
+.profile-section {
+    margin-bottom: 20px;
+}
+
+/* Styles for the headings */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styles for the input container */
+.input-container {
+    margin-bottom: 15px;
+}
+
+/* Styles for the input fields */
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Styles for the map container */
+.map-container {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Styles for the save button container */
+.save-button-container {
+    text-align: center;
+}
+
+/* Styles for the save button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #45a049;
+}

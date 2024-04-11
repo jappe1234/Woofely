@@ -1,0 +1,132 @@
+/* Styles for the white wrapper */
+.page-wrapper {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+}
+
+/* Styles for the top bar */
+.service-selection-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #067d4ebb;
+    color: rgb(0, 119, 38);
+    z-index: 1000;
+}
+
+/* Styles for the brand logo */
+.brand-logo {
+    width: 150px;
+    margin-right: 20px;
+}
+
+/* Styles for the home links */
+.home-link {
+    margin-right: 20px;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+/* Styles for the service selection heading */
+.service-selection-heading {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(0, 117, 66);
+}
+
+/* Styles for the service selection description */
+.service-selection-description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Styles for the service options wrapper */
+.service-options-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Styles for each service option */
+.service-option {
+    background-color: #dde8dc;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for the service details */
+.service-details {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for the service name */
+.service-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Styles for the service description */
+.service-description {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Styles for the service price */
+.service-price {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Styles for the service checkbox */
+.service-checkbox {
+    margin-left: 20px;
+}
+
+/* Styles for the save & continue button */
+.save-continue-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.save-continue-button:hover {
+    background-color: #45a049;
+}
+
+/* Background image for the entire page */
+body {
+    background-image: url('./images/pet_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Add a style for the selected service option */
+.selected {
+    background-color: #b5e9b5; /* Change the background color to indicate selection */
+}
+
+/* Add style for the error message */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
