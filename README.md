@@ -1,4 +1,4 @@
-# Woofely_V2---Copy
+# Woofely
  woofley app
 
  Main Contributors:
