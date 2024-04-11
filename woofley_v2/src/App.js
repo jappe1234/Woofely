@@ -7,6 +7,7 @@ import Home from "./Home";
 import Profile from "./Profile";
 import ServiceSelectionPage from "./ServiceSelectionPage"; 
 import PetMinderProfilePage from './PetMinderProfilePage';
+import Review from "./Review";
 
 // Your Firebase configuration
 const firebaseConfig = {
@@ -18,6 +19,8 @@ const firebaseConfig = {
   appId: "1:978288438730:web:188d00d50b0eb5df4b3333",
   measurementId: "G-JF3FJL58FH"
 };
+
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -34,6 +37,7 @@ function App() {
           <Route path="/Profile" element={<Profile />} />
           <Route path="/ServiceSelectionPage" element={<ServiceSelectionPage />} /> 
           <Route path="/PetMinderProfilePage" element={<PetMinderProfilePage />} />
+          <Route path="/Review" element={<Review />} />
         </Routes>
       </BrowserRouter>
     </div>

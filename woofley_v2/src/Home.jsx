@@ -61,7 +61,13 @@ const Home = () => {
                         <Link to="/ServiceSelectionPage"><i className='fas fa-heart'></i> Become a Sitter</Link>
                     </div>
                     <div className='home-link'>
-                        <a href='#'><i className='fas fa-paw'></i> Our Services</a>
+                        <a href='#'><i className='fas fa-paw'></i>Our Services</a>
+                    </div>
+                    <div className='home-link'>
+                        <a href='/Review'><i className='fas fa-paw'></i>Reviews</a>
+                    </div>
+                    <div className='home-link'>
+                        <a href='#'><i className='fas fa-paw'></i>Messages</a>
                     </div>
                 </div>
             </div>
