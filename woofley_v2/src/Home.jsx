@@ -63,6 +63,12 @@ const Home = () => {
                     <div className='home-link'>
                         <a href='#'><i className='fas fa-paw'></i> Our Services</a>
                     </div>
+                    <div className='home-link'>
+                        <a href='/Review'><i className='fas fa-paw'></i> Reviews</a>
+                    </div>
+                    <div className='home-link'>
+                        <a href='#'><i className='fas fa-paw'></i> Messages</a>
+                    </div>
                 </div>
             </div>
             <div className='home-main'>
